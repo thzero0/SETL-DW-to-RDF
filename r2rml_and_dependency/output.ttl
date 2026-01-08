@@ -1,0 +1,11 @@
+<http://example.org/weather/valor4>
+        a       <http://www.opengis.net/ont/geosparql#Feature> .
+
+<http://example.org/weather/valor3>
+        a       <http://www.opengis.net/ont/geosparql#Feature> .
+
+<http://example.org/weather/valor2>
+        a       <http://www.opengis.net/ont/geosparql#Feature> .
+
+<http://example.org/weather/valor1>
+        a       <http://www.opengis.net/ont/geosparql#Feature> .

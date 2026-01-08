@@ -1,0 +1,24 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# GEOSPARQL Vocabulary
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+
+# Basic geo vocabulary
+@prefix geo2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+# Example ontology
+@prefix fcc: <http://example.org/ont#> .
+
+
+<#WeatherMapping>
+    a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "TESTE" ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/weather/{NAME}" ;
+        rr:class geo:Feature ;
+    ]
+
+    .

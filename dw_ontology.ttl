@@ -1,0 +1,532 @@
+@prefix fdws:   <http://example.org/dw_ontology#> .    # fdws: FLAMI Data Warehouse Schema
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+
+#################################
+# Dimensions
+#################################
+
+fdws:DimTime a qb:DimensionProperty ;
+    rdfs:label "Time Dimension"@en ;
+    rdfs:comment "A dimension representing time periods."@en .
+
+fdws:DimDate a qb:DimensionProperty ;
+    rdfs:label "Date Dimension"@en ;
+    rdfs:comment "A dimension representing date attributes."@en .
+
+fdws:DimProvider a qb:DimensionProperty ;
+    rdfs:label "Provider Dimension"@en ;
+    rdfs:comment "A dimension representing data providers."@en .
+
+fdws:DimStatus a qb:DimensionProperty ;
+    rdfs:label "Status Dimension"@en ;
+    rdfs:comment "A dimension representing status of the data objects collected."@en .
+
+fdws:DimLicence a qb:DimensionProperty ;
+    rdfs:label "Licence Dimension"@en ;
+    rdfs:comment "A dimension representing data licences."@en .
+
+fdws:DimPermissions a qb:DimensionProperty ;
+    rdfs:label "Permissions Dimension"@en ;
+    rdfs:comment "A dimension representing data source permissions."@en .
+
+fdws:DimConfiguration a qb:DimensionProperty ;
+    rdfs:label "Configuration Dimension"@en ;
+    rdfs:comment "A dimension representing the equipment and configuration of the data collection process."@en .
+
+fdws:DimDataObject a qb:DimensionProperty ;
+    rdfs:label "Data Object Dimension"@en ;
+    rdfs:comment "A dimension representing data objects collected."@en .
+
+
+#################################
+# Hierarchies
+#################################
+
+# Time
+fdws:TimeHier a qb4o:Hierarchy ;
+    rdfs:label "Time Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Time dimension."@en ;
+    qb4o:inDimension fdws:DimTime ;
+    qb4o:hasLevel fdws:LevelHour , fdws:LevelMinute , fdws:LevelSecond .
+
+# Date
+fdws:DateHier a qb4o:Hierarchy ;
+    rdfs:label "Date Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Date dimension."@en ;
+    qb4o:inDimension fdws:DimDate ;
+    qb4o:hasLevel fdws:LevelYear , fdws:LevelMonth , fdws:LevelDay .
+
+# Provider 
+fdws:ProviderHier a qb4o:Hierarchy ;
+    rdfs:label "Provider Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Provider dimension."@en ;
+    qb4o:inDimension fdws:DimProvider ; 
+    qb4o:hasLevel fdws:LevelStation , fdws:LevelLocality , fdws:LevelCity ,
+      fdws:LevelState , fdws:LevelCountry .
+
+# Status
+fdws:StatusHier a qb4o:Hierarchy ;
+    rdfs:label "Status Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Status dimension."@en ;
+    qb4o:inDimension fdws:DimStatus ;
+    qb4o:hasLevel fdws:LevelStatus .
+
+# Licence
+fdws:LicenceHier a qb4o:Hierarchy ;
+    rdfs:label "Licence Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Licence dimension."@en ;
+    qb4o:inDimension fdws:DimLicence ;
+    qb4o:hasLevel fdws:LevelLicence .
+
+# Permissions
+fdws:PermissionsHier a qb4o:Hierarchy ;
+    rdfs:label "Permissions Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Permissions dimension."@en ;
+    qb4o:inDimension fdws:DimPermissions ;
+    qb4o:hasLevel fdws:LevelPermissions .
+
+# Configuration
+fdws:ConfigurationHier a qb4o:Hierarchy ;
+    rdfs:label "Configuration Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Configuration dimension."@en ;
+    qb4o:inDimension fdws:DimConfiguration ;
+    qb4o:hasLevel fdws:LevelConfiguration .
+
+# Data Object
+fdws:DataObjectHier a qb4o:Hierarchy ;
+    rdfs:label "Data Object Hierarchy"@en ;
+    rdfs:comment "Hierarchy for the Data Object dimension."@en ;
+    qb4o:inDimension fdws:DimDataObject ;
+    qb4o:hasLevel fdws:LevelDataObject .
+
+
+#################################
+# Roll-up properties
+################################# 
+
+# Time
+fdws:inMinute a qb4o:RollupProperty .
+fdws:inHour a qb4o:RollupProperty .
+
+# Date
+fdws:inMonth a qb4o:RollupProperty .
+fdws:inYear a qb4o:RollupProperty .
+
+# Provider
+fdws:inLocal a qb4o:RollupProperty .
+fdws:inCity a qb4o:RollupProperty .
+fdws:inState a qb4o:RollupProperty .
+fdws:inCountry a qb4o:RollupProperty .
+
+
+
+
+
+
+
+#################################
+# Levels and Hierarchies Steps
+################################# 
+
+
+# Time 
+fdws:LevelHour a qb4o:LevelProperty ;
+    rdfs:label "Hour of a timestamp"@en ;
+    qb4o:hasAttribute fdws:hourNum .
+
+fdws:LevelMinute a qb4o:LevelProperty ;
+    rdfs:label "Minute of a timestamp"@en ;
+    qb4o:hasAttribute fdws:minuteNum .
+
+fdws:LevelSecond a qb4o:LevelProperty ;
+    rdfs:label "Second of a timestamp"@en ;
+    qb4o:hasAttribute fdws:secondNum , fdws:timestamp .
+
+_:ih1 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:TimeHier ;
+    qb4o:childLevel fdws:LevelSecond ;
+    qb4o:parentLevel fdws:LevelMinute ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inMinute .
+
+_:ih2 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:TimeHier ;
+    qb4o:childLevel fdws:LevelMinute ;
+    qb4o:parentLevel fdws:LevelHour ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inHour .
+
+
+# Date 
+fdws:LevelYear a qb4o:LevelProperty ;
+    rdfs:label "Year of a date"@en ;
+    qb4o:hasAttribute fdws:yearNum .
+
+fdws:LevelMonth a qb4o:LevelProperty ;
+    rdfs:label "Month of a date"@en ;
+    qb4o:hasAttribute fdws:monthNum .
+
+fdws:LevelDay a qb4o:LevelProperty ;
+    rdfs:label "Day of a date"@en ;
+    qb4o:hasAttribute fdws:dayNum , fdws:date .
+
+_:ih3 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:DateHier ;
+    qb4o:childLevel fdws:LevelDay ;
+    qb4o:parentLevel fdws:LevelMonth ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inMonth .
+
+_:ih4 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:DateHier ;
+    qb4o:childLevel fdws:LevelMonth ;
+    qb4o:parentLevel fdws:LevelYear ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inYear .
+
+
+# Provider 
+fdws:LevelStation a qb4o:LevelProperty ;
+    rdfs:label "Provider Level"@en ;
+    qb4o:hasAttribute fdws:station , fdws:network , fdws:latitude , fdws:longitude ,
+     fdws:height .
+
+fdws:LevelLocality a qb4o:LevelProperty ;
+    rdfs:label "Locality Level"@en ;
+    qb4o:hasAttribute fdws:locality .
+
+fdws:LevelCity a qb4o:LevelProperty ;
+    rdfs:label "City Level"@en ;
+    qb4o:hasAttribute fdws:city .
+
+fdws:LevelState a qb4o:LevelProperty ;
+    rdfs:label "State Level"@en ;
+    qb4o:hasAttribute fdws:state .
+
+fdws:LevelCountry a qb4o:LevelProperty ;
+    rdfs:label "Country Level"@en ;
+    qb4o:hasAttribute fdws:country .
+
+_:ih5 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:ProviderHier ;
+    qb4o:childLevel fdws:LevelStation ;
+    qb4o:parentLevel fdws:LevelLocality ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inLocal .
+
+_:ih6 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:ProviderHier ;
+    qb4o:childLevel fdws:LevelLocality ;
+    qb4o:parentLevel fdws:LevelCity ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inCity .
+
+_:ih7 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:ProviderHier ;
+    qb4o:childLevel fdws:LevelCity ;
+    qb4o:parentLevel fdws:LevelState ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inState .
+
+_:ih8 a qb4o:HierarchyStep ;
+    qb4o:inHierarchy fdws:ProviderHier ;
+    qb4o:childLevel fdws:LevelState ;
+    qb4o:parentLevel fdws:LevelCountry ;
+    qb4o:pcCardinality qb4o:OneToMany ;
+    qb4o:rollup fdws:inCountry .
+
+
+
+# Status
+fdws:LevelStatus a qb4o:LevelProperty ;
+    rdfs:label "Status Level"@en ;
+    qb4o:hasAttribute fdws:statusSource , fdws:updateDate .
+
+# Licence
+fdws:LevelLicence a qb4o:LevelProperty ;
+    rdfs:label "Licence Level"@en ;
+    qb4o:hasAttribute fdws:licenceType , fdws:description , fdws:licenceURL .
+
+
+# Permissions
+fdws:LevelPermissions a qb4o:LevelProperty ;
+    rdfs:label "Permissions Level"@en ;
+    qb4o:hasAttribute fdws:role , fdws:anom .
+
+# Configuration
+fdws:LevelConfiguration a qb4o:LevelProperty ;
+    rdfs:label "Configuration Level"@en ;
+    qb4o:hasAttribute fdws:sensor , fdws:sensorType , fdws:sensorNumber , fdws:das , fdws:dasNumber .
+
+# Data Object
+fdws:LevelDataObject a qb4o:LevelProperty ;
+    rdfs:label "Data Object Level"@en ;
+    qb4o:hasAttribute fdws:sourceID , fdws:tittle , fdws:format , fdws:channel .
+
+
+
+#################################
+# Atributes
+################################# 
+
+# hourNum 
+fdws:hourNum a qb4o:LevelAttribute ;
+    rdfs:label "Hour Number"@en ;
+    rdfs:comment "The hour component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# minuteNum 
+fdws:minuteNum a qb4o:LevelAttribute ;
+    rdfs:label "Minute Number"@en ;
+    rdfs:comment "The minute component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# secondNum
+fdws:secondNum a qb4o:LevelAttribute ;
+    rdfs:label "Second Number"@en ;
+    rdfs:comment "The second component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# timestamp
+fdws:timestamp a qb4o:LevelAttribute ;
+    rdfs:label "Timestamp"@en ;
+    rdfs:comment "The complete timestamp."@en ;
+    qb4o:datatype xsd:dateTime .
+
+# yearNum
+fdws:yearNum a qb4o:LevelAttribute ;
+    rdfs:label "Year Number"@en ;
+    rdfs:comment "The year component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# monthNum
+fdws:monthNum a qb4o:LevelAttribute ;
+    rdfs:label "Month Number"@en ;
+    rdfs:comment "The month component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# dayNum
+fdws:dayNum a qb4o:LevelAttribute ;
+    rdfs:label "Day Number"@en ;
+    rdfs:comment "The day component of a timestamp."@en ;
+    qb4o:datatype xsd:integer .
+
+# date
+fdws:date a qb4o:LevelAttribute ;
+    rdfs:label "Date"@en ;
+    rdfs:comment "The complete date."@en ;
+    qb4o:datatype xsd:date .
+
+# station
+fdws:station a qb4o:LevelAttribute ;
+    rdfs:label "Station"@en ;
+    rdfs:comment "The station identifier."@en ;
+    qb4o:datatype xsd:string .
+
+# network
+fdws:network a qb4o:LevelAttribute ;
+    rdfs:label "Network"@en ;
+    rdfs:comment "The network identifier."@en ;
+    qb4o:datatype xsd:string .
+
+# latitude
+fdws:latitude a qb4o:LevelAttribute ;
+    rdfs:label "Latitude"@en ;
+    rdfs:comment "The latitude coordinate of the station."@en ;
+    qb4o:datatype xsd:decimal .
+
+# longitude
+fdws:longitude a qb4o:LevelAttribute ;
+    rdfs:label "Longitude"@en ;
+    rdfs:comment "The longitude coordinate of the station."@en ;
+    qb4o:datatype xsd:decimal .
+
+# height
+fdws:height a qb4o:LevelAttribute ;
+    rdfs:label "Height"@en ;
+    rdfs:comment "The height of the station above sea level."@en ;
+    qb4o:datatype xsd:decimal .
+
+# locality
+fdws:locality a qb4o:LevelAttribute ;
+    rdfs:label "Locality"@en ;
+    rdfs:comment "The locality of the station."@en ;
+    qb4o:datatype xsd:string .
+
+# city
+fdws:city a qb4o:LevelAttribute ;
+    rdfs:label "City"@en ;
+    rdfs:comment "The city of the station."@en ;
+    qb4o:datatype xsd:string .
+
+# state
+fdws:state a qb4o:LevelAttribute ;
+    rdfs:label "State"@en ;
+    rdfs:comment "The state of the station."@en ;
+    qb4o:datatype xsd:string .
+
+# country
+fdws:country a qb4o:LevelAttribute ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "The country of the station."@en ;
+    qb4o:datatype xsd:string .
+
+# statusSource
+fdws:statusSource a qb4o:LevelAttribute ;
+    rdfs:label "Status Source"@en ;
+    rdfs:comment "The source of the data object status."@en ;
+    qb4o:datatype xsd:string .
+
+# updateDate
+fdws:updateDate a qb4o:LevelAttribute ;
+    rdfs:label "Update Date"@en ;
+    rdfs:comment "The date when the data object status was last updated."@en ;
+    qb4o:datatype xsd:date .
+
+# licenceType
+fdws:licenceType a qb4o:LevelAttribute ;
+    rdfs:label "Licence Type"@en ;
+    rdfs:comment "The type of data licence."@en ;
+    qb4o:datatype xsd:string .
+
+# description
+fdws:description a qb4o:LevelAttribute ;
+    rdfs:label "Licence Description"@en ;
+    rdfs:comment "A description of the data licence."@en ;
+    qb4o:datatype xsd:string .
+
+# licenceURL
+fdws:licenceURL a qb4o:LevelAttribute ;
+    rdfs:label "Licence URL"@en ;
+    rdfs:comment "The URL of the data licence."@en ;
+    qb4o:datatype xsd:anyURI .
+
+# roleRequiered
+fdws:role a qb4o:LevelAttribute ;
+    rdfs:label "Role Required"@en ;
+    rdfs:comment "The role required to access the data."@en ;
+    qb4o:datatype xsd:string .
+
+# anom
+fdws:anom a qb4o:LevelAttribute ;
+    rdfs:label "Anonymization Needed"@en ;
+    rdfs:comment "Indicates if anonymization is needed for the data."@en ;
+    qb4o:datatype xsd:boolean .
+
+# sensor
+fdws:sensor a qb4o:LevelAttribute ;
+    rdfs:label "Sensor"@en ;
+    rdfs:comment "The sensor used for data collection."@en ;
+    qb4o:datatype xsd:string .
+
+# sensorType
+fdws:sensorType a qb4o:LevelAttribute ;
+    rdfs:label "Sensor Type"@en ;
+    rdfs:comment "The type of sensor used for data collection."@en ;
+    qb4o:datatype xsd:string .
+
+# sensorNumber
+fdws:sensorNumber a qb4o:LevelAttribute ;
+    rdfs:label "Sensor Number"@en ;
+    rdfs:comment "The identifier number of the sensor."@en ;
+    qb4o:datatype xsd:string .
+
+# das
+fdws:das a qb4o:LevelAttribute ;
+    rdfs:label "Data Acquisition System (DAS)"@en ;
+    rdfs:comment "The data acquisition system used."@en ;
+    qb4o:datatype xsd:string .
+
+# dasNumber
+fdws:dasNumber a qb4o:LevelAttribute ;
+    rdfs:label "DAS Number"@en ;
+    rdfs:comment "The identifier number of the data acquisition system."@en ;
+    qb4o:datatype xsd:string .
+
+# sourceID
+fdws:sourceID a qb4o:LevelAttribute ;
+    rdfs:label "Source ID"@en ;
+    rdfs:comment "The identifier of the data source."@en ;
+    qb4o:datatype xsd:string .
+
+# tittle
+fdws:tittle a qb4o:LevelAttribute ;
+    rdfs:label "Title"@en ;
+    rdfs:comment "The title of the data object."@en ;
+    qb4o:datatype xsd:string .
+
+# format
+fdws:format a qb4o:LevelAttribute ;
+    rdfs:label "Format"@en ;
+    rdfs:comment "The format of the data object."@en ;
+    qb4o:datatype xsd:string .
+
+# channel
+fdws:channel a qb4o:LevelAttribute ;
+    rdfs:label "Channel"@en ;
+    rdfs:comment "The channel of the data object."@en ;
+    qb4o:datatype xsd:string .
+
+
+#################################
+# Measures
+################################# 
+
+fdws:size a qb:MeasureProperty ;
+    rdfs:label "Data Object Size"@en ;
+    rdfs:comment "The size of the data object in bytes."@en ;
+    qb4o:datatype xsd:decimal .
+
+fdws:numberOfPoints a qb:MeasureProperty ;
+    rdfs:label "Number of Data Points"@en ;
+    rdfs:comment "The number of data points in the data object."@en ;
+    qb4o:datatype xsd:integer .
+
+fdws:delta a qb:MeasureProperty ;
+    rdfs:label "Time Delta"@en ;
+    rdfs:comment "The time delta between data points in seconds."@en ;
+    qb4o:datatype xsd:decimal .
+
+fdws:samplingRate a qb:MeasureProperty ;
+    rdfs:label "Sampling Rate"@en ;
+    rdfs:comment "The sampling rate of the data object in Hz."@en ;
+    qb4o:datatype xsd:decimal .
+
+fdws:calibration a qb:MeasureProperty ;
+    rdfs:label "Calibration Factor"@en ;
+    rdfs:comment "The calibration factor applied to the data object."@en ;
+    qb4o:datatype xsd:decimal .
+
+
+#################################
+# Cube
+################################# 
+
+fdws:DataWarehouseCube 
+    rdf:type qb:DataStructureDefinition ;
+    qb:component [ qb:measure fdws:size; qb4o:aggregationFunction qb4o:sum ] ;
+    qb:component [ qb:measure fdws:numberOfPoints; qb4o:aggregationFunction qb4o:sum ] ;
+    qb:component [ qb:measure fdws:delta; qb4o:aggregationFunction qb4o:avg ] ;
+    qb:component [ qb:measure fdws:samplingRate; qb4o:aggregationFunction qb4o:avg ] ;
+    qb:component [ qb:measure fdws:calibration; qb4o:aggregationFunction qb4o:avg ] ;
+    qb:component [ qb4o:level fdws:LevelSecond ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelDay ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelStation ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelStatus ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelLicence ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelPermissions ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelConfiguration ; qb4o:cardinality qb4o:ManyToOne ] ;
+    qb:component [ qb4o:level fdws:LevelDataObject ; qb4o:cardinality qb4o:ManyToOne ] ;
+    skos:notation "FLAMI Data Warehouse Cube Schema"@en ;
+    dct:conformsTo <http://purl.org/qb4olap/cubes#> .

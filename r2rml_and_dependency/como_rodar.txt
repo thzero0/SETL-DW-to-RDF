@@ -1,0 +1,10 @@
+/* Comando a executar no terminal */
+java -jar .\r2rml.jar .\config.properties
+
+
+
+* Notas * -- sobre a config.properties 
+CSVFiles = /* Um ou mais CSVs separados por ; (ou ',' confere lá) */
+mappingFile = /* Arquivo TTL com o mapeamento R2RML */
+outputFile = /* Arquivo de output onde irão as triplas RDF resultantes */
+format = /* Formato dos arquivos, no geral TURTLE */
