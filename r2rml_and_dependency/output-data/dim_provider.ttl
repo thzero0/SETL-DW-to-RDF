@@ -1,0 +1,928 @@
+<http://example.org/dw_ontology/instances/provider/24>
+        <http://example.org/dw_ontology#elevation>
+                "284.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.543242" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.583619" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Dois Rios Dos Cavalcante Minerolandia Pedra Branca" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b0
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/7>
+        <http://example.org/dw_ontology#elevation>
+                "367.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-13.099274" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.515824" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBCM" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b1 .
+
+<http://example.org/dw_ontology/instances/provider/37>
+        <http://example.org/dw_ontology#elevation>
+                "8.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.190424" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.472852" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBTO" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Touros" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+_:b3    <http://example.org/dw_ontology#locality>
+                "Varzea Do Boi Ponto Novo" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b4 .
+
+<http://example.org/dw_ontology/instances/provider/1>
+        <http://example.org/dw_ontology#elevation>
+                "123.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.5843" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.7861" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "ACJC" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Arizona Poco Branco" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/31>
+        <http://example.org/dw_ontology#elevation>
+                "56.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-8.6795" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.1274" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBRF" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Amaragi Estrada Tamandare Rio Formoso" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+_:b1    <http://example.org/dw_ontology#locality>
+                "Corta Mao Amargosa" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b4 .
+
+<http://example.org/dw_ontology/instances/provider/16>
+        <http://example.org/dw_ontology#elevation>
+                "612.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-7.3645" ;
+        <http://example.org/dw_ontology#longitude>
+                "-36.9498" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBLI" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Livramento" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b6
+                ] .
+
+_:b6    <http://example.org/dw_ontology#state>
+                "PB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+<http://example.org/dw_ontology/instances/provider/29>
+        <http://example.org/dw_ontology#elevation>
+                "468.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-4.393969" ;
+        <http://example.org/dw_ontology#longitude>
+                "-41.445618" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPS" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Serra Dos Matoes Pedro Ii" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          [ <http://example.org/dw_ontology#state>
+                                    "PI" ;
+                            <http://purl.org/qb4olap/cubes#inLevel>
+                                    <http://example.org/dw_ontology#LevelState>
+                          ]
+                ] .
+
+_:b4    <http://example.org/dw_ontology#state>
+                "BA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+<http://example.org/dw_ontology/instances/provider/10>
+        <http://example.org/dw_ontology#elevation>
+                "188.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-14.930689" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.434579" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBIT" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Itape" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b4
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/23>
+        <http://example.org/dw_ontology#elevation>
+                "95.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.75028" ;
+        <http://example.org/dw_ontology#longitude>
+                "-37.112047" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Sao Miguel Parau" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/6>
+        <http://example.org/dw_ontology#elevation>
+                "29.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-4.224377" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.291041" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBCL" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Trapia Passagem Do Franco I Cascavel" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b0
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/36>
+        <http://example.org/dw_ontology#elevation>
+                "345.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.125277" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.059756" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBTA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Caraibeiras De Baixo Tacaratu" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/30>
+        <http://example.org/dw_ontology#elevation>
+                "95.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-6.417528" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.290506" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPV" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Cuite Das Bocas Quatro Bocas Pedro Velho" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/15>
+        <http://example.org/dw_ontology#elevation>
+                "161.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.619879" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.788782" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBLGR" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Ladeira Grande Joao Camara" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/28>
+        <http://example.org/dw_ontology#elevation>
+                "386.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-10.847009" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.198957" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPN" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b3 .
+
+<http://example.org/dw_ontology/instances/provider/22>
+        <http://example.org/dw_ontology#elevation>
+                "108.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-3.31032" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.043" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBMO" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b7 .
+
+_:b2    <http://example.org/dw_ontology#state>
+                "RN" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+<http://example.org/dw_ontology/instances/provider/5>
+        <http://example.org/dw_ontology#elevation>
+                "615.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-8.225687" ;
+        <http://example.org/dw_ontology#longitude>
+                "-36.013016" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBCA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Sitio Lagedo Do Baixo Caruaru Caruaru" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/35>
+        <http://example.org/dw_ontology#elevation>
+                "346.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.121932" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.063215" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBTA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Sitio Caraibeira De Baixo Tacaratu" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/14>
+        <http://example.org/dw_ontology#elevation>
+                "196.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-10.99255" ;
+        <http://example.org/dw_ontology#longitude>
+                "-37.788972" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBLA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Lagarto" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          [ <http://example.org/dw_ontology#state>
+                                    "SE" ;
+                            <http://purl.org/qb4olap/cubes#inLevel>
+                                    <http://example.org/dw_ontology#LevelState>
+                          ]
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/27>
+        <http://example.org/dw_ontology#elevation>
+                "386.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-10.84846" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.19927" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPN" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b3 .
+
+_:b8    <http://example.org/dw_ontology#locality>
+                "Unknown" ;
+        <http://example.org/dw_ontology#state>
+                "Unknown" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> , <http://example.org/dw_ontology#LevelState> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b8 .
+
+_:b5    <http://example.org/dw_ontology#state>
+                "PE" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+<http://example.org/dw_ontology/instances/provider/21>
+        <http://example.org/dw_ontology#elevation>
+                "79.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-3.310348" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.042927" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBMO" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b7 .
+
+<http://example.org/dw_ontology/instances/provider/4>
+        <http://example.org/dw_ontology#elevation>
+                "64.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-8.682" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.1512" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBBL" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Bica De Lurdes Sitio Maranata Rio Formoso" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/34>
+        <http://example.org/dw_ontology#elevation>
+                "535.62" ;
+        <http://example.org/dw_ontology#latitude>
+                "-3.668" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.4798" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBSB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Serra Da Meruoca Jordaosobral" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b0
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/19>
+        <http://example.org/dw_ontology#elevation>
+                "445.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-7.365352" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.764058" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBMA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Faz Mauriti" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b0
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/13>
+        <http://example.org/dw_ontology#elevation>
+                "488.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.873057" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.901877" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBJG" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Pilar Jaguarari" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b4
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/26>
+        <http://example.org/dw_ontology#elevation>
+                "200.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-6.143998" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.190476" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPF" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Pau Dos Ferros" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/9>
+        <http://example.org/dw_ontology#elevation>
+                "232.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-12.5937" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.1821" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBCP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Santa Isabel Cabaceiras De Paraguacu" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b4
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/39>
+        <http://example.org/dw_ontology#elevation>
+                "168.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.9582" ;
+        <http://example.org/dw_ontology#longitude>
+                "-67.879" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "RBRC" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Universidade Do Acre" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          [ <http://example.org/dw_ontology#state>
+                                    "AC" ;
+                            <http://purl.org/qb4olap/cubes#inLevel>
+                                    <http://example.org/dw_ontology#LevelState>
+                          ]
+                ] .
+
+_:b7    <http://example.org/dw_ontology#locality>
+                "Sitio Alegre Morrinhos" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b0 .
+
+<http://example.org/dw_ontology/instances/provider/20>
+        <http://example.org/dw_ontology#elevation>
+                "110.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-3.3103" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.0429" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBMO" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b7 .
+
+<http://example.org/dw_ontology/instances/provider/3>
+        <http://example.org/dw_ontology#elevation>
+                "120.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.5222" ;
+        <http://example.org/dw_ontology#longitude>
+                "-45.2844" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBBC" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Barreira Do Corda" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          [ <http://example.org/dw_ontology#state>
+                                    "MA" ;
+                            <http://purl.org/qb4olap/cubes#inLevel>
+                                    <http://example.org/dw_ontology#LevelState>
+                          ]
+                ] .
+
+_:b0    <http://example.org/dw_ontology#state>
+                "CE" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+<http://example.org/dw_ontology/instances/provider/33>
+        <http://example.org/dw_ontology#elevation>
+                "25.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-8.714899" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.097783" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBRFO" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Rio Formoso" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/18>
+        <http://example.org/dw_ontology#elevation>
+                "602.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-7.357693" ;
+        <http://example.org/dw_ontology#longitude>
+                "-36.921745" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBLV" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Faz Livramento" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b6
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/-1>
+        <http://example.org/dw_ontology#elevation>
+                "-1.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-1.0" ;
+        <http://example.org/dw_ontology#longitude>
+                "-1.0" ;
+        <http://example.org/dw_ontology#network>
+                "Unknown" ;
+        <http://example.org/dw_ontology#station>
+                "Unknown" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b8 .
+
+<http://example.org/dw_ontology/instances/provider/40>
+        <http://example.org/dw_ontology#elevation>
+                "116.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-3.7583" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.3313" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "SBBR" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Fazenda Da Embrapa Estrada Sobral Groarias" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b0
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/12>
+        <http://example.org/dw_ontology#elevation>
+                "159.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-5.535989" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.818554" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBJCA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Escola Estadual Francisco De Assis Bittencourt Joao Camara" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/25>
+        <http://example.org/dw_ontology#elevation>
+                "388.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.321784" ;
+        <http://example.org/dw_ontology#longitude>
+                "-40.545697" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBPE" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Univasf Petrolina" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/8>
+        <http://example.org/dw_ontology#elevation>
+                "221.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-13.071601" ;
+        <http://example.org/dw_ontology#longitude>
+                "-39.503478" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBCM" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b1 .
+
+<http://example.org/dw_ontology/instances/provider/38>
+        <http://example.org/dw_ontology#elevation>
+                "230.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-6.1216" ;
+        <http://example.org/dw_ontology#longitude>
+                "-38.2708" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "PFBR" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Faz Varzea Novadivisa De Pau Dos Ferros Com Encanto" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b2
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/2>
+        <http://example.org/dw_ontology#elevation>
+                "261.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-9.668656" ;
+        <http://example.org/dw_ontology#longitude>
+                "-36.274726" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBAN" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Sitio Serra Da Moprena Anadia" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          [ <http://example.org/dw_ontology#state>
+                                    "AL" ;
+                            <http://purl.org/qb4olap/cubes#inLevel>
+                                    <http://example.org/dw_ontology#LevelState>
+                          ]
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/32>
+        <http://example.org/dw_ontology#elevation>
+                "90.5" ;
+        <http://example.org/dw_ontology#latitude>
+                "-8.6744" ;
+        <http://example.org/dw_ontology#longitude>
+                "-35.1333" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBRFM" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Escola Municipal Jose Minervino Roberto Rio Formoso" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b5
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/17>
+        <http://example.org/dw_ontology#elevation>
+                "813.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-11.414837" ;
+        <http://example.org/dw_ontology#longitude>
+                "-41.758733" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBLP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Lapao" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b4
+                ] .
+
+<http://example.org/dw_ontology/instances/provider/11>
+        <http://example.org/dw_ontology#elevation>
+                "466.0" ;
+        <http://example.org/dw_ontology#latitude>
+                "-13.494694" ;
+        <http://example.org/dw_ontology#longitude>
+                "-44.268469" ;
+        <http://example.org/dw_ontology#network>
+                "NB" ;
+        <http://example.org/dw_ontology#station>
+                "NBJA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStation> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                [ <http://example.org/dw_ontology#locality>
+                          "Jose Alves Jaborandi" ;
+                  <http://purl.org/qb4olap/cubes#inLevel>
+                          <http://example.org/dw_ontology#LevelLocality> ;
+                  <http://www.w3.org/2004/02/skos/core#broader>
+                          _:b4
+                ] .

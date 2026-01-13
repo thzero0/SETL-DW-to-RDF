@@ -1,0 +1,72 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#DateDayMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_DATE" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}/{DAY}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelDay] ;
+    rr:predicateObjectMap [ rr:predicate fdws:dayNum ; rr:objectMap [rr:column "DAY"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:date ; rr:objectMap [rr:column "DATE"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}" ;
+        ] ;    
+    ] ;
+
+    .
+
+<#DateMonthMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_DATE"] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelMonth] ;
+    rr:predicateObjectMap [ rr:predicate fdws:monthNum ; rr:objectMap [ rr:column "MONTH"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/date/{YEAR}" ;
+        ] ;
+    ];
+
+    .
+
+<#DateYearMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_DATE"] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelYear] ;
+    rr:predicateObjectMap [ rr:predicate fdws:yearNum ; rr:objectMap [ rr:column "YEAR"];] ;
+
+    .
+

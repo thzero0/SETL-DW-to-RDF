@@ -1,0 +1,11 @@
+<http://example.org/dw_ontology/instances/status/2>
+        <http://example.org/dw_ontology#statusSource>
+                "deprecated" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStatus> .
+
+<http://example.org/dw_ontology/instances/status/1>
+        <http://example.org/dw_ontology#statusSource>
+                "active" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelStatus> .

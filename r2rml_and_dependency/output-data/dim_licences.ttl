@@ -1,0 +1,19 @@
+<http://example.org/dw_ontology/instances/licence/2>
+        <http://example.org/dw_ontology#description>
+                "Permite uso, copia, modificacao, fusao, publicacao, distribuicao, sublicenciamento e/ou venda do software, desde que mantido aviso." ;
+        <http://example.org/dw_ontology#licenceType>
+                "MIT License" ;
+        <http://example.org/dw_ontology#licenceURL>
+                "https://opensource.org/licenses/MIT" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLicence> .
+
+<http://example.org/dw_ontology/instances/licence/1>
+        <http://example.org/dw_ontology#description>
+                "Permite copiar, distribuir, exibir e executar a obra e criar trabalhos derivados, desde que seja dado credito ao autor original." ;
+        <http://example.org/dw_ontology#licenceType>
+                "Creative Commons BY 2.0 Brasil" ;
+        <http://example.org/dw_ontology#licenceURL>
+                "https://creativecommons.org/licenses/by/2.0/br/" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLicence> .

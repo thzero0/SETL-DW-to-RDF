@@ -1,0 +1,23 @@
+<http://example.org/dw_ontology/instances/permissions/1>
+        <http://example.org/dw_ontology#anom>
+                "no" ;
+        <http://example.org/dw_ontology#role>
+                "admin" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelPermissions> .
+
+<http://example.org/dw_ontology/instances/permissions/3>
+        <http://example.org/dw_ontology#anom>
+                "yes" ;
+        <http://example.org/dw_ontology#role>
+                "reader" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelPermissions> .
+
+<http://example.org/dw_ontology/instances/permissions/2>
+        <http://example.org/dw_ontology#anom>
+                "no" ;
+        <http://example.org/dw_ontology#role>
+                "reader" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelPermissions> .

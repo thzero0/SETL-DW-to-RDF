@@ -1,0 +1,923 @@
+<http://example.org/dw_ontology/instances/configuration/46>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF4" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09201 e 342" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/18>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G0921" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/59>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "D16E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Pmd Scientific Lng203" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "10766" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/40>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3F" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09190 e 344" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/12>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1404" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "534" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/53>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA8" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Lennartz Le3Dlite Mkii 1Hz" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "567" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/25>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF9" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09158 e 346" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/8>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1707" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/66>
+        <http://example.org/dw_ontology#das>
+                "Guralp EAM dm24 mk3 fixed gain" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "A7281/7666" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Triaxial Broadband Guralp Cmg3Esp 120S 2000Vms" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "T39678" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/38>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACED" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09185 e 335" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/2>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "337" ;
+        <http://example.org/dw_ontology#sensorType>
+                "Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/60>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "D16E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Pmd Scientific Lng203" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "10763" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/32>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACFA" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09202 e 334" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/45>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3B" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G099173 e 332" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/17>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF5" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09205" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/58>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACFA" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Pmd Scientific Lng 203 E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "10765 e 334" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/11>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA9" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "535" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/52>
+        <http://example.org/dw_ontology#das>
+                "Nanometrics Trident e Taurus" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "667 e 3197" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Trillium Compact 120S Asm16783R6 754 Vms E Acelerometro Triaxial Titan" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09210 e 337" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/24>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEE" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09194 e 321" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/7>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1138" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/65>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEF" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Sprengnether" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "11104" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/37>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD40" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09174 e 333" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/1>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEF" ;
+        <http://example.org/dw_ontology#sensor>
+                "Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "305" ;
+        <http://example.org/dw_ontology#sensorType>
+                "Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/31>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACAF" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09201 e 340" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/44>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF5" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09205 e 349" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/16>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Observer 151B120 E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G13179VS e 308" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/57>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Pmd Scientific Lng 203" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "10762" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/29>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G0921 e 337" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/10>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1134" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/51>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA9" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Trillium Compact 120S Asm16783R6 754 Vm" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "1314" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/23>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "A037" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09212" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/6>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACE9" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/64>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF8" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Sprengnether" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "11103" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/36>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACAF" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09212 e 345" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/49>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD2D" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Trillium Compact 120S Asm16783R6 754 Vm" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "1314" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/30>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09210 e 337" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/43>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA7" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09209 e 347" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/15>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Nanometrics Trillium Compact 120S Asm16783R6 E Sismometro Periodo Curto Triaxial Pmd Scientific Lng 203" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "1271 e 10764" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/56>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEB" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Pmd Scientific Lng 203" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "10764" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/28>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACFC" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09185 e 335" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/50>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACB2" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Trillium Compact 120S Asm16783R6 754 Vm" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "1260" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/22>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD2D" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09199" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/5>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1139" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/63>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Sercel L43D 2Hz Woct 5500 Ohms E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G13179VS e 308" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/35>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF3" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09200 e 331" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/48>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA7" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Trillium Compact 120S Asm16783R6 754 Vm" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "1260" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/42>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09201 e 308" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/14>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1354" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/55>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEF" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Lennartz Le3Dlite Mkii 2230041" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "569" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/27>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEC" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09201 e 342" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/21>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA7" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09118" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/4>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACF7" ;
+        <http://example.org/dw_ontology#sensor>
+                "Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "305" ;
+        <http://example.org/dw_ontology#sensorType>
+                "Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/62>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Sercel L43D 2Hz Woct 5500 Ohms E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "4998 e 308" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/34>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACAA" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09203 e 341" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/47>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA8" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G099173 e 332" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/19>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACFC" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G0921" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/41>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACA9" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09212 e 345" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/13>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1135" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "534" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/54>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "D16E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Lennartz Le3Dlite Mkii 1Hz" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "570" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/26>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEA" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09209 e 347" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/9>
+        <http://example.org/dw_ontology#das>
+                "Geotech Smart24R" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "1384" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Geotech Ks2000M" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "537" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/39>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09209 e 347" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/20>
+        <http://example.org/dw_ontology#das>
+                "REFTEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACB2" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09206" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/3>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "AD3E" ;
+        <http://example.org/dw_ontology#sensor>
+                "Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "308" ;
+        <http://example.org/dw_ontology#sensorType>
+                "Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/61>
+        <http://example.org/dw_ontology#das>
+                "Raspberry Shake 3D AM" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "R256B" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Periodo Curto Triaxial Raspberry Shake 3D Am" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "R256B" ;
+        <http://example.org/dw_ontology#sensorType>
+                "SP" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .
+
+<http://example.org/dw_ontology/instances/configuration/33>
+        <http://example.org/dw_ontology#das>
+                "REF TEK 130-GSN" ;
+        <http://example.org/dw_ontology#dasNumber>
+                "ACEA" ;
+        <http://example.org/dw_ontology#sensor>
+                "Sismometro Broadband Triaxial Ref Tek Vs 151120 A E Acelerometro Triaxial Ref Tek 131 A 023" ;
+        <http://example.org/dw_ontology#sensorNumber>
+                "G09203 e 341" ;
+        <http://example.org/dw_ontology#sensorType>
+                "BB e Acel" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelConfiguration> .

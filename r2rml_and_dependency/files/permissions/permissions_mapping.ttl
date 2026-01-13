@@ -1,0 +1,29 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#PermissionsMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_PERMISSIONS" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/permissions/{SK_PERMISSIONS}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelPermissions] ;
+    rr:predicateObjectMap [ rr:predicate fdws:role ; rr:objectMap [rr:column "REQUIRED_ROLE"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:anom ; rr:objectMap [rr:column "REQUIRES_ANONYMIZATION"];] ;
+
+    .

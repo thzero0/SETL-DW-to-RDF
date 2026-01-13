@@ -1,0 +1,29 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#DimConfiguration> a rr:TriplesMap ;
+    rr:logicalTable [ rr:tableName "DIM_CONFIGURATION"] ;
+    
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/configuration/{SK_CONFIGURATION}" ;
+    ];
+
+    rr:predicateObjectMap [rr:predicate qb4o:inLevel ; rr:object fdws:LevelConfiguration] ;
+    rr:predicateObjectMap [rr:predicate fdws:sensor ; rr:objectMap [rr:column "SENSOR"];] ;
+    rr:predicateObjectMap [rr:predicate fdws:sensorType ; rr:objectMap [rr:column "TIPO_RESPOSTA_SENSOR"];] ;
+    rr:predicateObjectMap [rr:predicate fdws:sensorNumber ; rr:objectMap [rr:column "NUM_SERIE_SENSOR"];] ;
+    rr:predicateObjectMap [rr:predicate fdws:das ; rr:objectMap [rr:column "DAS"];] ;
+    rr:predicateObjectMap [rr:predicate fdws:dasNumber ; rr:objectMap [rr:column "NUM_SERIE_DAS"];] ;
+

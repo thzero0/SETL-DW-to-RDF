@@ -1,0 +1,74 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#StationMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_PROVIDER" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/provider/{SK_PROVIDER}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelStation] ;
+    rr:predicateObjectMap [ rr:predicate fdws:station ; rr:objectMap [rr:column "ESTACAO"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:network ; rr:objectMap [rr:column "REDE"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:latitude ; rr:objectMap [rr:column "LATITUDE"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:longitude ; rr:objectMap [rr:column "LONGITUDE"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:elevation ; rr:objectMap [rr:column "ALTITUDE"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:BlankNode ;
+            rr:template "{LOCALIDADE}" ;
+        ] ;
+    ] ;
+
+    .
+
+<#LocalityMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_PROVIDER" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:template "{LOCALIDADE}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelLocality] ;
+    rr:predicateObjectMap [ rr:predicate fdws:locality ; rr:objectMap [rr:column "LOCALIDADE"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:BlankNode ;
+            rr:template "{ESTADO}" ;
+        ] ;
+    ] ;
+
+    .
+
+<#StateMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_PROVIDER" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:template "{ESTADO}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelState] ;
+    rr:predicateObjectMap [ rr:predicate fdws:state ; rr:objectMap [rr:column "ESTADO"];] ;
+    .
+

@@ -1,0 +1,2871 @@
+<http://example.org/dw_ontology/instances/date/2013/4/5>
+        <http://example.org/dw_ontology#date>
+                "2013-04-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/1>
+        <http://example.org/dw_ontology#date>
+                "2022-01-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/8>
+        <http://example.org/dw_ontology#date>
+                "2022-04-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2011/9/27>
+        <http://example.org/dw_ontology#date>
+                "2011-09-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/9> .
+
+<http://example.org/dw_ontology/instances/date/2020/7/8>
+        <http://example.org/dw_ontology#date>
+                "2020-07-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2020/7> .
+
+<http://example.org/dw_ontology/instances/date/2023/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2013/2>
+        <http://example.org/dw_ontology#monthNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013> .
+
+<http://example.org/dw_ontology/instances/date/2021/12/2>
+        <http://example.org/dw_ontology#date>
+                "2021-12-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/12> .
+
+<http://example.org/dw_ontology/instances/date/2021/3/5>
+        <http://example.org/dw_ontology#date>
+                "2021-03-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/7/13>
+        <http://example.org/dw_ontology#date>
+                "2022-07-13" ;
+        <http://example.org/dw_ontology#dayNum>
+                "13" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/7> .
+
+<http://example.org/dw_ontology/instances/date/2020/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2020> .
+
+<http://example.org/dw_ontology/instances/date/2018/12/5>
+        <http://example.org/dw_ontology#date>
+                "2018-12-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/12> .
+
+<http://example.org/dw_ontology/instances/date/2022/9/15>
+        <http://example.org/dw_ontology#date>
+                "2022-09-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/9> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/9>
+        <http://example.org/dw_ontology#date>
+                "2022-02-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2015>
+        <http://example.org/dw_ontology#yearNum>
+                "2015" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2012/4/10>
+        <http://example.org/dw_ontology#date>
+                "2012-04-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012/4> .
+
+<http://example.org/dw_ontology/instances/date/2012/11/9>
+        <http://example.org/dw_ontology#date>
+                "2012-11-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012/11> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/14>
+        <http://example.org/dw_ontology#date>
+                "2022-01-14" ;
+        <http://example.org/dw_ontology#dayNum>
+                "14" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/15>
+        <http://example.org/dw_ontology#date>
+                "2022-02-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/16>
+        <http://example.org/dw_ontology#date>
+                "2022-03-16" ;
+        <http://example.org/dw_ontology#dayNum>
+                "16" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/8/26>
+        <http://example.org/dw_ontology#date>
+                "2022-08-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/8> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/6>
+        <http://example.org/dw_ontology#date>
+                "2022-03-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2011/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2022/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/26>
+        <http://example.org/dw_ontology#date>
+                "2022-01-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/27>
+        <http://example.org/dw_ontology#date>
+                "2022-02-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/28>
+        <http://example.org/dw_ontology#date>
+                "2022-03-28" ;
+        <http://example.org/dw_ontology#dayNum>
+                "28" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/3>
+        <http://example.org/dw_ontology#date>
+                "2022-04-03" ;
+        <http://example.org/dw_ontology#dayNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/7>
+        <http://example.org/dw_ontology#date>
+                "2022-01-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2015/9/17>
+        <http://example.org/dw_ontology#date>
+                "2015-09-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/9> .
+
+<http://example.org/dw_ontology/instances/date/2011/5/29>
+        <http://example.org/dw_ontology#date>
+                "2011-05-29" ;
+        <http://example.org/dw_ontology#dayNum>
+                "29" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/5> .
+
+<http://example.org/dw_ontology/instances/date/2008/9/25>
+        <http://example.org/dw_ontology#date>
+                "2008-09-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008/9> .
+
+<http://example.org/dw_ontology/instances/date/2019/10/24>
+        <http://example.org/dw_ontology#date>
+                "2019-10-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019/10> .
+
+<http://example.org/dw_ontology/instances/date/2022/9/10>
+        <http://example.org/dw_ontology#date>
+                "2022-09-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/9> .
+
+<http://example.org/dw_ontology/instances/date/2023/9/6>
+        <http://example.org/dw_ontology#date>
+                "2023-09-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/9> .
+
+<http://example.org/dw_ontology/instances/date/2023/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2023/3/21>
+        <http://example.org/dw_ontology#date>
+                "2023-03-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/4>
+        <http://example.org/dw_ontology#date>
+                "2022-02-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2010>
+        <http://example.org/dw_ontology#yearNum>
+                "2010" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2023/6/24>
+        <http://example.org/dw_ontology#date>
+                "2023-06-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/6> .
+
+<http://example.org/dw_ontology/instances/date/2022/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2023/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2019/3/18>
+        <http://example.org/dw_ontology#date>
+                "2019-03-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/10>
+        <http://example.org/dw_ontology#date>
+                "2022-02-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/11>
+        <http://example.org/dw_ontology#date>
+                "2022-03-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/1>
+        <http://example.org/dw_ontology#date>
+                "2022-03-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2011/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2022>
+        <http://example.org/dw_ontology#yearNum>
+                "2022" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2015/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015> .
+
+<http://example.org/dw_ontology/instances/date/2016/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016> .
+
+<http://example.org/dw_ontology/instances/date/2015/6/8>
+        <http://example.org/dw_ontology#date>
+                "2015-06-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/6> .
+
+<http://example.org/dw_ontology/instances/date/2011/10/12>
+        <http://example.org/dw_ontology#date>
+                "2011-10-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/10> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/21>
+        <http://example.org/dw_ontology#date>
+                "2022-01-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/22>
+        <http://example.org/dw_ontology#date>
+                "2022-02-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/23>
+        <http://example.org/dw_ontology#date>
+                "2022-03-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2008/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008> .
+
+<http://example.org/dw_ontology/instances/date/2013/2/18>
+        <http://example.org/dw_ontology#date>
+                "2013-02-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/2>
+        <http://example.org/dw_ontology#date>
+                "2022-01-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2019/11/19>
+        <http://example.org/dw_ontology#date>
+                "2019-11-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019/11> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/9>
+        <http://example.org/dw_ontology#date>
+                "2022-04-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2018/10/23>
+        <http://example.org/dw_ontology#date>
+                "2018-10-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/10> .
+
+<http://example.org/dw_ontology/instances/date/2011/12/7>
+        <http://example.org/dw_ontology#date>
+                "2011-12-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/12> .
+
+<http://example.org/dw_ontology/instances/date/2021/6/21>
+        <http://example.org/dw_ontology#date>
+                "2021-06-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/6> .
+
+<http://example.org/dw_ontology/instances/date/2013/5/22>
+        <http://example.org/dw_ontology#date>
+                "2013-05-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/5> .
+
+<http://example.org/dw_ontology/instances/date/2017/7/19>
+        <http://example.org/dw_ontology#date>
+                "2017-07-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/7> .
+
+<http://example.org/dw_ontology/instances/date/2018/12/6>
+        <http://example.org/dw_ontology#date>
+                "2018-12-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/12> .
+
+<http://example.org/dw_ontology/instances/date/2016>
+        <http://example.org/dw_ontology#yearNum>
+                "2016" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2018/1/31>
+        <http://example.org/dw_ontology#date>
+                "2018-01-31" ;
+        <http://example.org/dw_ontology#dayNum>
+                "31" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/1> .
+
+<http://example.org/dw_ontology/instances/date/2017/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2011/4>
+        <http://example.org/dw_ontology#monthNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/15>
+        <http://example.org/dw_ontology#date>
+                "2022-01-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/16>
+        <http://example.org/dw_ontology#date>
+                "2022-02-16" ;
+        <http://example.org/dw_ontology#dayNum>
+                "16" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/17>
+        <http://example.org/dw_ontology#date>
+                "2022-03-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2019/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/7>
+        <http://example.org/dw_ontology#date>
+                "2022-03-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2010/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2010> .
+
+<http://example.org/dw_ontology/instances/date/0/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/0> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/17>
+        <http://example.org/dw_ontology#date>
+                "2011-04-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2024/5/17>
+        <http://example.org/dw_ontology#date>
+                "2024-05-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2024/5> .
+
+<http://example.org/dw_ontology/instances/date/2013/5/16>
+        <http://example.org/dw_ontology#date>
+                "2013-05-16" ;
+        <http://example.org/dw_ontology#dayNum>
+                "16" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/5> .
+
+<http://example.org/dw_ontology/instances/date/2022/2>
+        <http://example.org/dw_ontology#monthNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2013/4/1>
+        <http://example.org/dw_ontology#date>
+                "2013-04-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/27>
+        <http://example.org/dw_ontology#date>
+                "2022-01-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2015/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/28>
+        <http://example.org/dw_ontology#date>
+                "2022-02-28" ;
+        <http://example.org/dw_ontology#dayNum>
+                "28" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/29>
+        <http://example.org/dw_ontology#date>
+                "2022-03-29" ;
+        <http://example.org/dw_ontology#dayNum>
+                "29" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/4>
+        <http://example.org/dw_ontology#date>
+                "2022-04-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/8>
+        <http://example.org/dw_ontology#date>
+                "2022-01-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2008/8/25>
+        <http://example.org/dw_ontology#date>
+                "2008-08-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008/8> .
+
+<http://example.org/dw_ontology/instances/date/2011/8/2>
+        <http://example.org/dw_ontology#date>
+                "2011-08-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/8> .
+
+<http://example.org/dw_ontology/instances/date/2019/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/30>
+        <http://example.org/dw_ontology#date>
+                "2022-03-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/30>
+        <http://example.org/dw_ontology#date>
+                "2011-04-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2023/9/7>
+        <http://example.org/dw_ontology#date>
+                "2023-09-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/9> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/5>
+        <http://example.org/dw_ontology#date>
+                "2022-02-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2011>
+        <http://example.org/dw_ontology#yearNum>
+                "2011" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2023/7/26>
+        <http://example.org/dw_ontology#date>
+                "2023-07-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/7> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/10>
+        <http://example.org/dw_ontology#date>
+                "2022-01-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/11>
+        <http://example.org/dw_ontology#date>
+                "2022-02-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/12>
+        <http://example.org/dw_ontology#date>
+                "2022-03-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/2>
+        <http://example.org/dw_ontology#date>
+                "2022-03-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2023>
+        <http://example.org/dw_ontology#yearNum>
+                "2023" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2015/9/5>
+        <http://example.org/dw_ontology#date>
+                "2015-09-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/9> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/12>
+        <http://example.org/dw_ontology#date>
+                "2011-04-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2015/6/9>
+        <http://example.org/dw_ontology#date>
+                "2015-06-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/6> .
+
+<http://example.org/dw_ontology/instances/date/2011/10/13>
+        <http://example.org/dw_ontology#date>
+                "2011-10-13" ;
+        <http://example.org/dw_ontology#dayNum>
+                "13" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/10> .
+
+<http://example.org/dw_ontology/instances/date/2011/12/15>
+        <http://example.org/dw_ontology#date>
+                "2011-12-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/12> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/24>
+        <http://example.org/dw_ontology#date>
+                "2022-03-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/22>
+        <http://example.org/dw_ontology#date>
+                "2022-01-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/23>
+        <http://example.org/dw_ontology#date>
+                "2022-02-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2012/12/11>
+        <http://example.org/dw_ontology#date>
+                "2012-12-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012/12> .
+
+<http://example.org/dw_ontology/instances/date/2008/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008> .
+
+<http://example.org/dw_ontology/instances/date/2013/2/19>
+        <http://example.org/dw_ontology#date>
+                "2013-02-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/3>
+        <http://example.org/dw_ontology#date>
+                "2022-01-03" ;
+        <http://example.org/dw_ontology#dayNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2018/2/9>
+        <http://example.org/dw_ontology#date>
+                "2018-02-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/2> .
+
+<http://example.org/dw_ontology/instances/date/2011/7/27>
+        <http://example.org/dw_ontology#date>
+                "2011-07-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/7> .
+
+<http://example.org/dw_ontology/instances/date/2011/10/25>
+        <http://example.org/dw_ontology#date>
+                "2011-10-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/10> .
+
+<http://example.org/dw_ontology/instances/date/2013/4>
+        <http://example.org/dw_ontology#monthNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013> .
+
+<http://example.org/dw_ontology/instances/date/2021/12/31>
+        <http://example.org/dw_ontology#date>
+                "2021-12-31" ;
+        <http://example.org/dw_ontology#dayNum>
+                "31" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/12> .
+
+<http://example.org/dw_ontology/instances/date/2017>
+        <http://example.org/dw_ontology#yearNum>
+                "2017" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/0/1/1>
+        <http://example.org/dw_ontology#date>
+                "0001-01-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/0/1> .
+
+<http://example.org/dw_ontology/instances/date/2021/6>
+        <http://example.org/dw_ontology#monthNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2011/5>
+        <http://example.org/dw_ontology#monthNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/16>
+        <http://example.org/dw_ontology#date>
+                "2022-01-16" ;
+        <http://example.org/dw_ontology#dayNum>
+                "16" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/17>
+        <http://example.org/dw_ontology#date>
+                "2022-02-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/18>
+        <http://example.org/dw_ontology#date>
+                "2022-03-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2019/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019> .
+
+<http://example.org/dw_ontology/instances/date/2018/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/8>
+        <http://example.org/dw_ontology#date>
+                "2022-03-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2015/10/5>
+        <http://example.org/dw_ontology#date>
+                "2015-10-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/10> .
+
+<http://example.org/dw_ontology/instances/date/2016/2/17>
+        <http://example.org/dw_ontology#date>
+                "2016-02-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016/2> .
+
+<http://example.org/dw_ontology/instances/date/2011/7/6>
+        <http://example.org/dw_ontology#date>
+                "2011-07-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/7> .
+
+<http://example.org/dw_ontology/instances/date/2022/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2013/4/2>
+        <http://example.org/dw_ontology#date>
+                "2013-04-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/28>
+        <http://example.org/dw_ontology#date>
+                "2022-01-28" ;
+        <http://example.org/dw_ontology#dayNum>
+                "28" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2015/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/5>
+        <http://example.org/dw_ontology#date>
+                "2022-04-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2011/9/24>
+        <http://example.org/dw_ontology#date>
+                "2011-09-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/9> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/9>
+        <http://example.org/dw_ontology#date>
+                "2022-01-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/31>
+        <http://example.org/dw_ontology#date>
+                "2022-03-31" ;
+        <http://example.org/dw_ontology#dayNum>
+                "31" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2016/6>
+        <http://example.org/dw_ontology#monthNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/6>
+        <http://example.org/dw_ontology#date>
+                "2022-02-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2012>
+        <http://example.org/dw_ontology#yearNum>
+                "2012" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2023/11/27>
+        <http://example.org/dw_ontology#date>
+                "2023-11-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/11> .
+
+<http://example.org/dw_ontology/instances/date/2020/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2020> .
+
+<http://example.org/dw_ontology/instances/date/2021/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2016/12/12>
+        <http://example.org/dw_ontology#date>
+                "2016-12-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016/12> .
+
+<http://example.org/dw_ontology/instances/date/2017/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/11>
+        <http://example.org/dw_ontology#date>
+                "2022-01-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/12>
+        <http://example.org/dw_ontology#date>
+                "2022-02-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/13>
+        <http://example.org/dw_ontology#date>
+                "2022-03-13" ;
+        <http://example.org/dw_ontology#dayNum>
+                "13" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/3>
+        <http://example.org/dw_ontology#date>
+                "2022-03-03" ;
+        <http://example.org/dw_ontology#dayNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2024>
+        <http://example.org/dw_ontology#yearNum>
+                "2024" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2011/7/1>
+        <http://example.org/dw_ontology#date>
+                "2011-07-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/7> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/5>
+        <http://example.org/dw_ontology#date>
+                "2011-04-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/23>
+        <http://example.org/dw_ontology#date>
+                "2022-01-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/24>
+        <http://example.org/dw_ontology#date>
+                "2022-02-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/25>
+        <http://example.org/dw_ontology#date>
+                "2022-03-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/4>
+        <http://example.org/dw_ontology#date>
+                "2022-01-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2011/5/26>
+        <http://example.org/dw_ontology#date>
+                "2011-05-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/5> .
+
+<http://example.org/dw_ontology/instances/date/2011/6/27>
+        <http://example.org/dw_ontology#date>
+                "2011-06-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/6> .
+
+<http://example.org/dw_ontology/instances/date/2013/2/21>
+        <http://example.org/dw_ontology#date>
+                "2013-02-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/2> .
+
+<http://example.org/dw_ontology/instances/date/2013/5>
+        <http://example.org/dw_ontology#monthNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013> .
+
+<http://example.org/dw_ontology/instances/date/2022/8/4>
+        <http://example.org/dw_ontology#date>
+                "2022-08-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/8> .
+
+<http://example.org/dw_ontology/instances/date/2023/6>
+        <http://example.org/dw_ontology#monthNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/1>
+        <http://example.org/dw_ontology#date>
+                "2022-02-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2023/7/22>
+        <http://example.org/dw_ontology#date>
+                "2023-07-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/7> .
+
+<http://example.org/dw_ontology/instances/date/2007/8/27>
+        <http://example.org/dw_ontology#date>
+                "2007-08-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2007/8> .
+
+<http://example.org/dw_ontology/instances/date/2018>
+        <http://example.org/dw_ontology#yearNum>
+                "2018" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2011/9/6>
+        <http://example.org/dw_ontology#date>
+                "2011-09-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/9> .
+
+<http://example.org/dw_ontology/instances/date/2017/5/20>
+        <http://example.org/dw_ontology#date>
+                "2017-05-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/5> .
+
+<http://example.org/dw_ontology/instances/date/2021/7/1>
+        <http://example.org/dw_ontology#date>
+                "2021-07-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/7> .
+
+<http://example.org/dw_ontology/instances/date/2017/7/22>
+        <http://example.org/dw_ontology#date>
+                "2017-07-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/7> .
+
+<http://example.org/dw_ontology/instances/date/2007/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2007> .
+
+<http://example.org/dw_ontology/instances/date/2017/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/0>
+        <http://example.org/dw_ontology#yearNum>
+                "0" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/17>
+        <http://example.org/dw_ontology#date>
+                "2022-01-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2011/6>
+        <http://example.org/dw_ontology#monthNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2021/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/18>
+        <http://example.org/dw_ontology#date>
+                "2022-02-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/19>
+        <http://example.org/dw_ontology#date>
+                "2022-03-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2017/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/9>
+        <http://example.org/dw_ontology#date>
+                "2022-03-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2016/3/19>
+        <http://example.org/dw_ontology#date>
+                "2016-03-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/20>
+        <http://example.org/dw_ontology#date>
+                "2022-03-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/4>
+        <http://example.org/dw_ontology#monthNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022> .
+
+<http://example.org/dw_ontology/instances/date/2013/4/3>
+        <http://example.org/dw_ontology#date>
+                "2013-04-03" ;
+        <http://example.org/dw_ontology#dayNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/29>
+        <http://example.org/dw_ontology#date>
+                "2022-01-29" ;
+        <http://example.org/dw_ontology#dayNum>
+                "29" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2010/12/27>
+        <http://example.org/dw_ontology#date>
+                "2010-12-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2010/12> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/6>
+        <http://example.org/dw_ontology#date>
+                "2022-04-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2024/5/20>
+        <http://example.org/dw_ontology#date>
+                "2024-05-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2024/5> .
+
+<http://example.org/dw_ontology/instances/date/2016/8/30>
+        <http://example.org/dw_ontology#date>
+                "2016-08-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016/8> .
+
+<http://example.org/dw_ontology/instances/date/2016/6/6>
+        <http://example.org/dw_ontology#date>
+                "2016-06-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016/6> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/30>
+        <http://example.org/dw_ontology#date>
+                "2022-01-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2019/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019> .
+
+<http://example.org/dw_ontology/instances/date/2017/3/12>
+        <http://example.org/dw_ontology#date>
+                "2017-03-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/3> .
+
+<http://example.org/dw_ontology/instances/date/2023/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/7>
+        <http://example.org/dw_ontology#date>
+                "2022-02-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2013>
+        <http://example.org/dw_ontology#yearNum>
+                "2013" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2021/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2021/6/30>
+        <http://example.org/dw_ontology#date>
+                "2021-06-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/6> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/12>
+        <http://example.org/dw_ontology#date>
+                "2022-01-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2021/2>
+        <http://example.org/dw_ontology#monthNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/13>
+        <http://example.org/dw_ontology#date>
+                "2022-02-13" ;
+        <http://example.org/dw_ontology#dayNum>
+                "13" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/14>
+        <http://example.org/dw_ontology#date>
+                "2022-03-14" ;
+        <http://example.org/dw_ontology#dayNum>
+                "14" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2014/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2014> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/4>
+        <http://example.org/dw_ontology#date>
+                "2022-03-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2011/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2012/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012> .
+
+<http://example.org/dw_ontology/instances/date/2017/10/18>
+        <http://example.org/dw_ontology#date>
+                "2017-10-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/10> .
+
+<http://example.org/dw_ontology/instances/date/2018/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018> .
+
+<http://example.org/dw_ontology/instances/date/2021/9/15>
+        <http://example.org/dw_ontology#date>
+                "2021-09-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/9> .
+
+<http://example.org/dw_ontology/instances/date/2020/10/23>
+        <http://example.org/dw_ontology#date>
+                "2020-10-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2020/10> .
+
+<http://example.org/dw_ontology/instances/date/2017/11/20>
+        <http://example.org/dw_ontology#date>
+                "2017-11-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/11> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/24>
+        <http://example.org/dw_ontology#date>
+                "2022-01-24" ;
+        <http://example.org/dw_ontology#dayNum>
+                "24" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/25>
+        <http://example.org/dw_ontology#date>
+                "2022-02-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/26>
+        <http://example.org/dw_ontology#date>
+                "2022-03-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/1>
+        <http://example.org/dw_ontology#date>
+                "2022-04-01" ;
+        <http://example.org/dw_ontology#dayNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2018/8/17>
+        <http://example.org/dw_ontology#date>
+                "2018-08-17" ;
+        <http://example.org/dw_ontology#dayNum>
+                "17" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/8> .
+
+<http://example.org/dw_ontology/instances/date/2021/11/9>
+        <http://example.org/dw_ontology#date>
+                "2021-11-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/11> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/5>
+        <http://example.org/dw_ontology#date>
+                "2022-01-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/26>
+        <http://example.org/dw_ontology#date>
+                "2011-04-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2011/6/28>
+        <http://example.org/dw_ontology#date>
+                "2011-06-28" ;
+        <http://example.org/dw_ontology#dayNum>
+                "28" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/6> .
+
+<http://example.org/dw_ontology/instances/date/2007>
+        <http://example.org/dw_ontology#yearNum>
+                "2007" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2011/10/27>
+        <http://example.org/dw_ontology#date>
+                "2011-10-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/10> .
+
+<http://example.org/dw_ontology/instances/date/2013/1/21>
+        <http://example.org/dw_ontology#date>
+                "2013-01-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/1> .
+
+<http://example.org/dw_ontology/instances/date/2016/2>
+        <http://example.org/dw_ontology#monthNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016> .
+
+<http://example.org/dw_ontology/instances/date/2008/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008> .
+
+<http://example.org/dw_ontology/instances/date/2023/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023> .
+
+<http://example.org/dw_ontology/instances/date/2011/8/31>
+        <http://example.org/dw_ontology#date>
+                "2011-08-31" ;
+        <http://example.org/dw_ontology#dayNum>
+                "31" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/8> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/2>
+        <http://example.org/dw_ontology#date>
+                "2022-02-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2023/6/22>
+        <http://example.org/dw_ontology#date>
+                "2023-06-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/6> .
+
+<http://example.org/dw_ontology/instances/date/2023/7/23>
+        <http://example.org/dw_ontology#date>
+                "2023-07-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/7> .
+
+<http://example.org/dw_ontology/instances/date/2019>
+        <http://example.org/dw_ontology#yearNum>
+                "2019" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2017/9/25>
+        <http://example.org/dw_ontology#date>
+                "2017-09-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/9> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/10>
+        <http://example.org/dw_ontology#date>
+                "2022-04-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2015/9/2>
+        <http://example.org/dw_ontology#date>
+                "2015-09-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/9> .
+
+<http://example.org/dw_ontology/instances/date/2011/7>
+        <http://example.org/dw_ontology#monthNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2020>
+        <http://example.org/dw_ontology#yearNum>
+                "2020" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/18>
+        <http://example.org/dw_ontology#date>
+                "2022-01-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/19>
+        <http://example.org/dw_ontology#date>
+                "2022-02-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2015/11/23>
+        <http://example.org/dw_ontology#date>
+                "2015-11-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/11> .
+
+<http://example.org/dw_ontology/instances/date/2017/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2018/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018> .
+
+<http://example.org/dw_ontology/instances/date/2018/12/11>
+        <http://example.org/dw_ontology#date>
+                "2018-12-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018/12> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/20>
+        <http://example.org/dw_ontology#date>
+                "2022-02-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/21>
+        <http://example.org/dw_ontology#date>
+                "2022-03-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2008/11/18>
+        <http://example.org/dw_ontology#date>
+                "2008-11-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2008/11> .
+
+<http://example.org/dw_ontology/instances/date/2012/4>
+        <http://example.org/dw_ontology#monthNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012> .
+
+<http://example.org/dw_ontology/instances/date/2021/11/4>
+        <http://example.org/dw_ontology#date>
+                "2021-11-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/11> .
+
+<http://example.org/dw_ontology/instances/date/2013/4/4>
+        <http://example.org/dw_ontology#date>
+                "2013-04-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/7>
+        <http://example.org/dw_ontology#date>
+                "2022-04-07" ;
+        <http://example.org/dw_ontology#dayNum>
+                "7" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/10/21>
+        <http://example.org/dw_ontology#date>
+                "2022-10-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/10> .
+
+<http://example.org/dw_ontology/instances/date/2020/7/14>
+        <http://example.org/dw_ontology#date>
+                "2020-07-14" ;
+        <http://example.org/dw_ontology#dayNum>
+                "14" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2020/7> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/31>
+        <http://example.org/dw_ontology#date>
+                "2022-01-31" ;
+        <http://example.org/dw_ontology#dayNum>
+                "31" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2013/1>
+        <http://example.org/dw_ontology#monthNum>
+                "1" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2013> .
+
+<http://example.org/dw_ontology/instances/date/2016/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016> .
+
+<http://example.org/dw_ontology/instances/date/2023/1/23>
+        <http://example.org/dw_ontology#date>
+                "2023-01-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/1> .
+
+<http://example.org/dw_ontology/instances/date/2007/8/23>
+        <http://example.org/dw_ontology#date>
+                "2007-08-23" ;
+        <http://example.org/dw_ontology#dayNum>
+                "23" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2007/8> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/8>
+        <http://example.org/dw_ontology#date>
+                "2022-02-08" ;
+        <http://example.org/dw_ontology#dayNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2014>
+        <http://example.org/dw_ontology#yearNum>
+                "2014" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2017/5>
+        <http://example.org/dw_ontology#monthNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2012/4/9>
+        <http://example.org/dw_ontology#date>
+                "2012-04-09" ;
+        <http://example.org/dw_ontology#dayNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012/4> .
+
+<http://example.org/dw_ontology/instances/date/2021/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/13>
+        <http://example.org/dw_ontology#date>
+                "2022-01-13" ;
+        <http://example.org/dw_ontology#dayNum>
+                "13" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/14>
+        <http://example.org/dw_ontology#date>
+                "2022-02-14" ;
+        <http://example.org/dw_ontology#dayNum>
+                "14" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/15>
+        <http://example.org/dw_ontology#date>
+                "2022-03-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/9/26>
+        <http://example.org/dw_ontology#date>
+                "2022-09-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/9> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/5>
+        <http://example.org/dw_ontology#date>
+                "2022-03-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2014/8/27>
+        <http://example.org/dw_ontology#date>
+                "2014-08-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2014/8> .
+
+<http://example.org/dw_ontology/instances/date/2011/11>
+        <http://example.org/dw_ontology#monthNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2012/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012> .
+
+<http://example.org/dw_ontology/instances/date/2011/7/18>
+        <http://example.org/dw_ontology#date>
+                "2011-07-18" ;
+        <http://example.org/dw_ontology#dayNum>
+                "18" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/7> .
+
+<http://example.org/dw_ontology/instances/date/2018/2>
+        <http://example.org/dw_ontology#monthNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018> .
+
+<http://example.org/dw_ontology/instances/date/2021/2/2>
+        <http://example.org/dw_ontology#date>
+                "2021-02-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/25>
+        <http://example.org/dw_ontology#date>
+                "2022-01-25" ;
+        <http://example.org/dw_ontology#dayNum>
+                "25" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2015/6>
+        <http://example.org/dw_ontology#monthNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/26>
+        <http://example.org/dw_ontology#date>
+                "2022-02-26" ;
+        <http://example.org/dw_ontology#dayNum>
+                "26" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/27>
+        <http://example.org/dw_ontology#date>
+                "2022-03-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2022/4/2>
+        <http://example.org/dw_ontology#date>
+                "2022-04-02" ;
+        <http://example.org/dw_ontology#dayNum>
+                "2" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/6>
+        <http://example.org/dw_ontology#date>
+                "2022-01-06" ;
+        <http://example.org/dw_ontology#dayNum>
+                "6" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2011/4/27>
+        <http://example.org/dw_ontology#date>
+                "2011-04-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/4> .
+
+<http://example.org/dw_ontology/instances/date/2008>
+        <http://example.org/dw_ontology#yearNum>
+                "2008" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2016/3>
+        <http://example.org/dw_ontology#monthNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2016> .
+
+<http://example.org/dw_ontology/instances/date/2023/9/5>
+        <http://example.org/dw_ontology#date>
+                "2023-09-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2023/9> .
+
+<http://example.org/dw_ontology/instances/date/2011/6/30>
+        <http://example.org/dw_ontology#date>
+                "2011-06-30" ;
+        <http://example.org/dw_ontology#dayNum>
+                "30" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/6> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/3>
+        <http://example.org/dw_ontology#date>
+                "2022-02-03" ;
+        <http://example.org/dw_ontology#dayNum>
+                "3" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2015/11/12>
+        <http://example.org/dw_ontology#date>
+                "2015-11-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/11> .
+
+<http://example.org/dw_ontology/instances/date/2015/8/27>
+        <http://example.org/dw_ontology#date>
+                "2015-08-27" ;
+        <http://example.org/dw_ontology#dayNum>
+                "27" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015/8> .
+
+<http://example.org/dw_ontology/instances/date/2019/1/15>
+        <http://example.org/dw_ontology#date>
+                "2019-01-15" ;
+        <http://example.org/dw_ontology#dayNum>
+                "15" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2019/1> .
+
+<http://example.org/dw_ontology/instances/date/2012/4/4>
+        <http://example.org/dw_ontology#date>
+                "2012-04-04" ;
+        <http://example.org/dw_ontology#dayNum>
+                "4" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2012/4> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/10>
+        <http://example.org/dw_ontology#date>
+                "2022-03-10" ;
+        <http://example.org/dw_ontology#dayNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2024/5>
+        <http://example.org/dw_ontology#monthNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2024> .
+
+<http://example.org/dw_ontology/instances/date/2017/12/5>
+        <http://example.org/dw_ontology#date>
+                "2017-12-05" ;
+        <http://example.org/dw_ontology#dayNum>
+                "5" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017/12> .
+
+<http://example.org/dw_ontology/instances/date/2021>
+        <http://example.org/dw_ontology#yearNum>
+                "2021" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelYear> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/19>
+        <http://example.org/dw_ontology#date>
+                "2022-01-19" ;
+        <http://example.org/dw_ontology#dayNum>
+                "19" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2011/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011> .
+
+<http://example.org/dw_ontology/instances/date/2021/9>
+        <http://example.org/dw_ontology#monthNum>
+                "9" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2021> .
+
+<http://example.org/dw_ontology/instances/date/2015/10>
+        <http://example.org/dw_ontology#monthNum>
+                "10" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2015> .
+
+<http://example.org/dw_ontology/instances/date/2017/12>
+        <http://example.org/dw_ontology#monthNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2017> .
+
+<http://example.org/dw_ontology/instances/date/2011/10/11>
+        <http://example.org/dw_ontology#date>
+                "2011-10-11" ;
+        <http://example.org/dw_ontology#dayNum>
+                "11" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/10> .
+
+<http://example.org/dw_ontology/instances/date/2011/11/12>
+        <http://example.org/dw_ontology#date>
+                "2011-11-12" ;
+        <http://example.org/dw_ontology#dayNum>
+                "12" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2011/11> .
+
+<http://example.org/dw_ontology/instances/date/2022/1/20>
+        <http://example.org/dw_ontology#date>
+                "2022-01-20" ;
+        <http://example.org/dw_ontology#dayNum>
+                "20" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/1> .
+
+<http://example.org/dw_ontology/instances/date/2022/2/21>
+        <http://example.org/dw_ontology#date>
+                "2022-02-21" ;
+        <http://example.org/dw_ontology#dayNum>
+                "21" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/2> .
+
+<http://example.org/dw_ontology/instances/date/2022/3/22>
+        <http://example.org/dw_ontology#date>
+                "2022-03-22" ;
+        <http://example.org/dw_ontology#dayNum>
+                "22" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelDay> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2022/3> .
+
+<http://example.org/dw_ontology/instances/date/2018/8>
+        <http://example.org/dw_ontology#monthNum>
+                "8" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelMonth> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                <http://example.org/dw_ontology/instances/date/2018> .

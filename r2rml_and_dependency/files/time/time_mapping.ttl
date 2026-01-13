@@ -1,0 +1,71 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#TimeSecondMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_TIME" ] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}/{SECOND}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelSecond] ;
+    rr:predicateObjectMap [ rr:predicate fdws:secondNum ; rr:objectMap [rr:column "SECOND"];] ;
+    rr:predicateObjectMap [ rr:predicate fdws:timestamp ; rr:objectMap [rr:column "TIMESTAMP"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}" ;
+        ] ;    
+    ] ;
+
+    .
+
+<#TimeMinuteMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_TIME"] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}" ;
+    ] ;
+    
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelMinute] ;
+    rr:predicateObjectMap [ rr:predicate fdws:minuteNum ; rr:objectMap [ rr:column "MINUTE"];] ;
+    rr:predicateObjectMap [ rr:predicate skos:broader ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/time/{HOUR}" ;
+        ] ;
+    ];
+
+    .
+
+<#TimeHourMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "DIM_TIME"] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}" ;
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelHour] ;
+    rr:predicateObjectMap [ rr:predicate fdws:hourNum ; rr:objectMap [ rr:column "HOUR"];] ;
+
+    .
