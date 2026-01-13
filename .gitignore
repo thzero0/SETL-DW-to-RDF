@@ -1,4 +1,4 @@
-# everything inside etl/clean_data/ should be ignored
+# everything inside etl/clean_data/
 etl/clean_data/*
 
 # Byte-compiled / optimized / DLL files

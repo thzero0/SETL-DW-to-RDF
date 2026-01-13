@@ -26,11 +26,11 @@ def create_dim_configuration():
     dim_configuration = dim_configuration.withColumn("sk_configuration", row_number().over(window))
 
     null_row = spark.createDataFrame([(-1,)], ["sk_configuration"]) \
-        .withColumn("sensor", lit(None)) \
-        .withColumn("tipo_resposta_sensor", lit(None)) \
-        .withColumn("num_serie_sensor", lit(None)) \
-        .withColumn("das", lit(None)) \
-        .withColumn("num_serie_das", lit(None))
+        .withColumn("sensor", lit("Unknown")) \
+        .withColumn("tipo_resposta_sensor", lit("Unknown")) \
+        .withColumn("num_serie_sensor", lit("Unknown")) \
+        .withColumn("das", lit("Unknown")) \
+        .withColumn("num_serie_das", lit("Unknown"))
     dim_configuration = dim_configuration.select("sk_configuration", "sensor", "tipo_resposta_sensor", "num_serie_sensor", "das", "num_serie_das")
     dim_configuration = dim_configuration.unionByName(null_row).orderBy("sk_configuration")
 

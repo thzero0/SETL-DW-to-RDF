@@ -12,7 +12,7 @@ def create_dim_dataObject():
 
     dim_dataObject = df.select( 
         col("ID").alias("source_id"),
-        col("filename").alias("tittle"), 
+        col("filename").alias("title"), 
         col("channel").alias("channel"),
     )
 
@@ -21,9 +21,9 @@ def create_dim_dataObject():
 
     null_row = spark.createDataFrame([(-1,)], ["sk_dataObject"]) \
         .withColumn("source_id", lit(-1)) \
-        .withColumn("tittle", lit("Unknown")) \
+        .withColumn("title", lit("Unknown")) \
         .withColumn("channel", lit("Unknown"))
-    dim_dataObject = dim_dataObject.select("sk_dataObject", "source_id", "tittle", "channel")
+    dim_dataObject = dim_dataObject.select("sk_dataObject", "source_id", "title", "channel")
     dim_dataObject = dim_dataObject.unionByName(null_row).orderBy("sk_dataObject")
 
     dim_dataObject.write.parquet(output_path, mode="overwrite")
