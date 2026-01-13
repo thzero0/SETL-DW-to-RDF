@@ -29,6 +29,10 @@ java -jar "$JAR_FILE" ./files/status/config.properties
 echo -e "\nGerando TTL de time ..."
 java -jar "$JAR_FILE" ./files/time/config.properties
 
+echo -e "\n#------------------------------#"
+echo -e "\nGerando TTL da fato ..."
+java -jar "$JAR_FILE" ./files/fact/config.properties
+
 
 echo -e "\n#------------------------------#"
 echo "R2RML finalizado."

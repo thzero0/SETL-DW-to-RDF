@@ -19,7 +19,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}/{SECOND}" ;
+        rr:template "http://example.org/dw_ontology/instances/time/{SK_TIME}" ;
     ] ;
 
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelSecond] ;
@@ -28,7 +28,7 @@
     rr:predicateObjectMap [ rr:predicate skos:broader ;
         rr:objectMap [
             rr:termType rr:IRI ;
-            rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}" ;
+            rr:template "http://example.org/dw_ontology/instances/minute/{HOUR}/{MINUTE}" ;
         ] ;    
     ] ;
 
@@ -41,7 +41,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}/{MINUTE}" ;
+        rr:template "http://example.org/dw_ontology/instances/minute/{HOUR}/{MINUTE}" ;
     ] ;
     
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelMinute] ;
@@ -49,7 +49,7 @@
     rr:predicateObjectMap [ rr:predicate skos:broader ;
         rr:objectMap [
             rr:termType rr:IRI ;
-            rr:template "http://example.org/dw_ontology/instances/time/{HOUR}" ;
+            rr:template "http://example.org/dw_ontology/instances/hour/{HOUR}" ;
         ] ;
     ];
 
@@ -62,7 +62,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/time/{HOUR}" ;
+        rr:template "http://example.org/dw_ontology/instances/hour/{HOUR}" ;
     ] ;
 
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelHour] ;

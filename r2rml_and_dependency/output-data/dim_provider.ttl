@@ -1,3 +1,10 @@
+_:b0    <http://example.org/dw_ontology#locality>
+                "Varzea Do Boi Ponto Novo" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b1 .
+
 <http://example.org/dw_ontology/instances/provider/24>
         <http://example.org/dw_ontology#elevation>
                 "284.0" ;
@@ -17,7 +24,7 @@
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b0
+                          _:b2
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/7>
@@ -34,7 +41,12 @@
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b1 .
+                _:b3 .
+
+_:b4    <http://example.org/dw_ontology#state>
+                "PE" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
 
 <http://example.org/dw_ontology/instances/provider/37>
         <http://example.org/dw_ontology#elevation>
@@ -55,15 +67,8 @@
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
-
-_:b3    <http://example.org/dw_ontology#locality>
-                "Varzea Do Boi Ponto Novo" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelLocality> ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                _:b4 .
 
 <http://example.org/dw_ontology/instances/provider/1>
         <http://example.org/dw_ontology#elevation>
@@ -84,7 +89,7 @@ _:b3    <http://example.org/dw_ontology#locality>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/31>
@@ -106,15 +111,8 @@ _:b3    <http://example.org/dw_ontology#locality>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
-
-_:b1    <http://example.org/dw_ontology#locality>
-                "Corta Mao Amargosa" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelLocality> ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                _:b4 .
 
 <http://example.org/dw_ontology/instances/provider/16>
         <http://example.org/dw_ontology#elevation>
@@ -138,10 +136,12 @@ _:b1    <http://example.org/dw_ontology#locality>
                           _:b6
                 ] .
 
-_:b6    <http://example.org/dw_ontology#state>
-                "PB" ;
+_:b3    <http://example.org/dw_ontology#locality>
+                "Corta Mao Amargosa" ;
         <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelState> .
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b1 .
 
 <http://example.org/dw_ontology/instances/provider/29>
         <http://example.org/dw_ontology#elevation>
@@ -169,8 +169,8 @@ _:b6    <http://example.org/dw_ontology#state>
                           ]
                 ] .
 
-_:b4    <http://example.org/dw_ontology#state>
-                "BA" ;
+_:b2    <http://example.org/dw_ontology#state>
+                "CE" ;
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelState> .
 
@@ -193,7 +193,7 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b4
+                          _:b1
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/23>
@@ -215,7 +215,7 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/6>
@@ -237,8 +237,13 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b0
+                          _:b2
                 ] .
+
+_:b1    <http://example.org/dw_ontology#state>
+                "BA" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
 
 <http://example.org/dw_ontology/instances/provider/36>
         <http://example.org/dw_ontology#elevation>
@@ -259,7 +264,7 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/30>
@@ -281,7 +286,7 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/15>
@@ -303,7 +308,7 @@ _:b4    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/28>
@@ -320,7 +325,16 @@ _:b4    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b3 .
+                _:b0 .
+
+_:b7    <http://example.org/dw_ontology#locality>
+                "Unknown" ;
+        <http://example.org/dw_ontology#state>
+                "Unknown" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> , <http://example.org/dw_ontology#LevelState> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b7 .
 
 <http://example.org/dw_ontology/instances/provider/22>
         <http://example.org/dw_ontology#elevation>
@@ -336,12 +350,7 @@ _:b4    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b7 .
-
-_:b2    <http://example.org/dw_ontology#state>
-                "RN" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelState> .
+                _:b8 .
 
 <http://example.org/dw_ontology/instances/provider/5>
         <http://example.org/dw_ontology#elevation>
@@ -362,7 +371,7 @@ _:b2    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/35>
@@ -384,7 +393,7 @@ _:b2    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/14>
@@ -427,21 +436,7 @@ _:b2    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b3 .
-
-_:b8    <http://example.org/dw_ontology#locality>
-                "Unknown" ;
-        <http://example.org/dw_ontology#state>
-                "Unknown" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelLocality> , <http://example.org/dw_ontology#LevelState> ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                _:b8 .
-
-_:b5    <http://example.org/dw_ontology#state>
-                "PE" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelState> .
+                _:b0 .
 
 <http://example.org/dw_ontology/instances/provider/21>
         <http://example.org/dw_ontology#elevation>
@@ -457,7 +452,7 @@ _:b5    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b7 .
+                _:b8 .
 
 <http://example.org/dw_ontology/instances/provider/4>
         <http://example.org/dw_ontology#elevation>
@@ -478,7 +473,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/34>
@@ -500,7 +495,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b0
+                          _:b2
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/19>
@@ -522,7 +517,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b0
+                          _:b2
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/13>
@@ -544,7 +539,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b4
+                          _:b1
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/26>
@@ -566,7 +561,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/9>
@@ -588,7 +583,7 @@ _:b5    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b4
+                          _:b1
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/39>
@@ -617,13 +612,6 @@ _:b5    <http://example.org/dw_ontology#state>
                           ]
                 ] .
 
-_:b7    <http://example.org/dw_ontology#locality>
-                "Sitio Alegre Morrinhos" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelLocality> ;
-        <http://www.w3.org/2004/02/skos/core#broader>
-                _:b0 .
-
 <http://example.org/dw_ontology/instances/provider/20>
         <http://example.org/dw_ontology#elevation>
                 "110.0" ;
@@ -638,7 +626,7 @@ _:b7    <http://example.org/dw_ontology#locality>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b7 .
+                _:b8 .
 
 <http://example.org/dw_ontology/instances/provider/3>
         <http://example.org/dw_ontology#elevation>
@@ -666,11 +654,6 @@ _:b7    <http://example.org/dw_ontology#locality>
                           ]
                 ] .
 
-_:b0    <http://example.org/dw_ontology#state>
-                "CE" ;
-        <http://purl.org/qb4olap/cubes#inLevel>
-                <http://example.org/dw_ontology#LevelState> .
-
 <http://example.org/dw_ontology/instances/provider/33>
         <http://example.org/dw_ontology#elevation>
                 "25.0" ;
@@ -690,7 +673,7 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/18>
@@ -729,7 +712,7 @@ _:b0    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b8 .
+                _:b7 .
 
 <http://example.org/dw_ontology/instances/provider/40>
         <http://example.org/dw_ontology#elevation>
@@ -750,7 +733,7 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b0
+                          _:b2
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/12>
@@ -772,7 +755,7 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/25>
@@ -794,7 +777,7 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/8>
@@ -811,7 +794,7 @@ _:b0    <http://example.org/dw_ontology#state>
         <http://purl.org/qb4olap/cubes#inLevel>
                 <http://example.org/dw_ontology#LevelStation> ;
         <http://www.w3.org/2004/02/skos/core#broader>
-                _:b1 .
+                _:b3 .
 
 <http://example.org/dw_ontology/instances/provider/38>
         <http://example.org/dw_ontology#elevation>
@@ -832,8 +815,15 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b2
+                          _:b5
                 ] .
+
+_:b8    <http://example.org/dw_ontology#locality>
+                "Sitio Alegre Morrinhos" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelLocality> ;
+        <http://www.w3.org/2004/02/skos/core#broader>
+                _:b2 .
 
 <http://example.org/dw_ontology/instances/provider/2>
         <http://example.org/dw_ontology#elevation>
@@ -880,7 +870,7 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b5
+                          _:b4
                 ] .
 
 <http://example.org/dw_ontology/instances/provider/17>
@@ -902,8 +892,18 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b4
+                          _:b1
                 ] .
+
+_:b6    <http://example.org/dw_ontology#state>
+                "PB" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
+
+_:b5    <http://example.org/dw_ontology#state>
+                "RN" ;
+        <http://purl.org/qb4olap/cubes#inLevel>
+                <http://example.org/dw_ontology#LevelState> .
 
 <http://example.org/dw_ontology/instances/provider/11>
         <http://example.org/dw_ontology#elevation>
@@ -924,5 +924,5 @@ _:b0    <http://example.org/dw_ontology#state>
                   <http://purl.org/qb4olap/cubes#inLevel>
                           <http://example.org/dw_ontology#LevelLocality> ;
                   <http://www.w3.org/2004/02/skos/core#broader>
-                          _:b4
+                          _:b1
                 ] .

@@ -19,7 +19,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}/{DAY}" ;
+        rr:template "http://example.org/dw_ontology/instances/date/{SK_DATE}" ;
     ] ;
 
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelDay] ;
@@ -28,7 +28,7 @@
     rr:predicateObjectMap [ rr:predicate skos:broader ;
         rr:objectMap [
             rr:termType rr:IRI ;
-            rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}" ;
+            rr:template "http://example.org/dw_ontology/instances/month/{YEAR}/{MONTH}" ;
         ] ;    
     ] ;
 
@@ -41,7 +41,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}/{MONTH}" ;
+        rr:template "http://example.org/dw_ontology/instances/month/{YEAR}/{MONTH}" ;
     ] ;
 
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelMonth] ;
@@ -49,7 +49,7 @@
     rr:predicateObjectMap [ rr:predicate skos:broader ;
         rr:objectMap [
             rr:termType rr:IRI ;
-            rr:template "http://example.org/dw_ontology/instances/date/{YEAR}" ;
+            rr:template "http://example.org/dw_ontology/instances/year/{YEAR}" ;
         ] ;
     ];
 
@@ -62,7 +62,7 @@
 
     rr:subjectMap [
         rr:termType rr:IRI ;
-        rr:template "http://example.org/dw_ontology/instances/date/{YEAR}" ;
+        rr:template "http://example.org/dw_ontology/instances/year/{YEAR}" ;
     ] ;
 
     rr:predicateObjectMap [ rr:predicate qb4o:inLevel ; rr:object fdws:LevelYear] ;

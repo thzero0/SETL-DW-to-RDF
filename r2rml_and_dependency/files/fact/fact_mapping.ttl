@@ -1,0 +1,91 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix void:   <http://rdfs.org/ns/void#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix qb4o:   <http://purl.org/qb4olap/cubes#> .
+
+# Example ontology
+@prefix fdws:   <http://example.org/dw_ontology#> .
+
+<#FactMap>
+    a rr:TriplesMap ;
+
+    rr:logicalTable [ rr:tableName "FACT_STORAGE"] ;
+
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+        rr:template "http://example.org/dw_ontology/instances/fact/{SK_DATAOBJECT}" ;
+        rr:class qb:Observation ;
+    ] ;
+
+
+    rr:predicateObjectMap [ rr:predicate qb:dataSet ; rr:object fdws:dataset1 ; ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelSecond ; 
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/time/{SK_START_TIME}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelDay ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/date/{SK_START_DATE}" ;
+        ];
+    ];
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelStation ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/provider/{SK_PROVIDER}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelStatus ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/status/{SK_STATUS}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelLicence ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/licence/{SK_LICENCE}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelPermissions ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/permissions/{SK_PERMISSIONS}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelConfiguration ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/configuration/{SK_CONFIGURATION}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:LevelDataObject ;
+        rr:objectMap [
+            rr:termType rr:IRI ;
+            rr:template "http://example.org/dw_ontology/instances/dataObject/{SK_DATAOBJECT}" ;
+        ];
+    ] ;
+
+    rr:predicateObjectMap [ rr:predicate fdws:size ; rr:objectMap [rr:column "SIZE"];];
+    rr:predicateObjectMap [ rr:predicate fdws:numberOfPoints ; rr:objectMap [rr:column "NUMBER_OF_POINTS"];];
+    rr:predicateObjectMap [ rr:predicate fdws:delta ; rr:objectMap [rr:column "DELTA"];];
+    rr:predicateObjectMap [ rr:predicate fdws:samplingRate ; rr:objectMap [rr:column "SAMPLING_RATE"];];
+    rr:predicateObjectMap [ rr:predicate fdws:calibration ; rr:objectMap [rr:column "CALIBRATION"];];
+
+    .

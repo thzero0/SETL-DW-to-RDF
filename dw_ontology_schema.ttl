@@ -489,3 +489,8 @@ fdws:DataWarehouseCube
     qb:component [ qb4o:level fdws:LevelDataObject ; qb4o:cardinality qb4o:ManyToOne ] ;
     skos:notation "FLAMI Data Warehouse Cube Schema"@en ;
     dct:conformsTo <http://purl.org/qb4olap/cubes#> .
+
+fdws:dataset1 a qb:DataSet ;
+    rdfs:label "FLAMI Data Warehouse Dataset"@en ;
+    rdfs:comment "A dataset representing the FLAMI data warehouse in RDF format."@en ;
+    qb:structure fdws:DataWarehouseCube .
